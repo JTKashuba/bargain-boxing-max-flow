@@ -2,11 +2,11 @@
 
 A software application developed in Python to determine the maximum flow in a flow network using the Ford-Fulkerson algorithm
 * The program constructs and evaluates a bipartite graph from data received from an input file, determining the smallest number of visible boxes when optimally nesting them inside one another (i.e., max flow)
-* There are visual aids and comments in the source code in ```nestingBoxes_maxFlow.py``` for future developers ease of use to modify it to their specific needs
+* There are visual aids and comments in the source code in ```nestingBoxes_maxFlow.py``` for future developers ease of use to modify it to their specific needs, as well as more info and diagrams available in ```asst6.pdf``` and ```bargainBoxing.pdf```
 
 ## Problem Statement
 
-Suppose we are given a set of boxes, each specified by their height, width, and depth in inches. All three side lengths of every box lie strictly between 1 inch and 36 inches. As you should expect, one box can be placed inside another if the first box can be rotated so that its height, width, and depth are respectively at least one inch smaller smaller than the height, width, and depth of the second box. Boxes can be nested recursively. Call a box visible if it is not inside another box. Write code that will determine the smallest number of visible boxes. (More info and diagrams available in asst6.pdf and bargainBoxing.pdf)
+Suppose we are given a set of boxes, each specified by their height, width, and depth in inches. All three side lengths of every box lie strictly between 1 inch and 36 inches. As you should expect, one box can be placed inside another if the first box can be rotated so that its height, width, and depth are respectively at least one inch smaller smaller than the height, width, and depth of the second box. Boxes can be nested recursively. Call a box visible if it is not inside another box. Write code that will determine the smallest number of visible boxes.
 
 
 ## User Instructions
