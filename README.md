@@ -1,6 +1,8 @@
 # Bargain Boxing Max Flow
 
-A software application developed in Python to determine the maximum flow in a flow network using the Ford-Fulkerson algorithm 
+A software application developed in Python to determine the maximum flow in a flow network using the Ford-Fulkerson algorithm
+* The program constructs and evaluates a bipartite graph from data received from an input file, determining the smallest number of visible boxes when optimally nesting them inside one another (i.e., max flow)
+* There are visual aids and comments in the source code in ```nestingBoxes_maxFlow.py``` for future developers ease of use to modify it to their specific needs
 
 ## Problem Statement
 
@@ -14,8 +16,6 @@ Suppose we are given a set of boxes, each specified by their height, width, and 
 * Run the program with a command of the following form ```python3 nestingBoxes_maxFlow.py < file.txt```, where ```file.txt``` is a file with the variables for which you're attempting to determine the max flow
 * There are 3 sample files provided: namely ```inSample1.txt```, ```inSample2.txt```, and ```judge3.txt```. The max flow for the samples are ```1```, ```3```, and ```6``` respectively
 * If you would like to utilize this program with different variables, follow the format listed in the third paragraph of asst6.pdf when creating your ```.txt``` file
-* The program constructs and evaluates a bipartite graph from data received from the input file, determining the smallest number of visible boxes when optimally nesting them inside one another (i.e., max flow)
-* There are even more visual aids and comments in the source code in ```nestingBoxes_maxFlow.py``` for future developers ease of use to modify it to their specific needs
 
 
 ## Contact Info
