@@ -1,0 +1,24 @@
+OUTPUT FOR ASST6
+
+Note that output should go to standard out (not to a file).
+
+
+————————
+inSample1.txt
+————————
+
+1
+
+
+————————
+inSample2.txt
+————————
+
+3
+
+
+————————
+judge3.txt
+————————
+
+6
